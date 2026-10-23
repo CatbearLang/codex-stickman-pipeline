@@ -101,3 +101,5 @@ tests/test_verify.py
 tools/allowlist.txt
 tools/demo.py
 tools/release.py
+docs/HOW_IT_WAS_BUILT.md
+docs/HOW_IT_WAS_BUILT.es.md
