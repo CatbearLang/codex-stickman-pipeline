@@ -1,6 +1,6 @@
 # Guide for installing with a coding assistant
 
-Read README, QUICKSTART, and docs/PROVIDERS before running the kit. The product generates local videos from topics; messaging review and publishing require separate integrations.
+Read README, QUICKSTART, and docs/PROVIDERS before running the pipeline. The pipeline generates local videos from topics; messaging review and publishing require separate integrations.
 
 Check Python, FFmpeg, and Codex, install the package, and run `stickman check`. Ask the user to complete `codex login` when needed. Never request that they paste a token into chat or copy another person's authentication files.
 

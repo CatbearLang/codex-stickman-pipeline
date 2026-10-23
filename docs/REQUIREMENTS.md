@@ -25,4 +25,4 @@ Not required:
 
 - A GPU.
 - An OpenAI API key, unless you explicitly switch images to `openai-api`.
-- A browser login inside this kit. Codex keeps its own login.
+- A browser login inside this pipeline. Codex keeps its own login.

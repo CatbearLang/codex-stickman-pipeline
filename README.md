@@ -63,7 +63,7 @@ flowchart LR
     L -.-> I
 ```
 
-See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the module map and design decisions.
+See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the module map and [docs/HOW_IT_WAS_BUILT.md](docs/HOW_IT_WAS_BUILT.md) for what it is for, how each stage works and how it was built.
 
 ## Tech stack
 

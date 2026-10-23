@@ -13,7 +13,7 @@ ffprobe -version
 
 On Windows, `py -3.11` can replace `python`.
 
-## 2. Install this kit
+## 2. Install the pipeline
 
 Clone the repository to a short local path, such as `C:\dev\codex-stickman-pipeline`. Avoid a cloud-synced folder while rendering.
 
@@ -38,7 +38,7 @@ codex login
 stickman check
 ```
 
-`codex login` uses your ChatGPT account. This kit never copies that login.
+`codex login` uses your ChatGPT account. This pipeline never copies that login.
 
 ## 3. Make the first video
 
@@ -92,4 +92,4 @@ Set the named environment variable before the run. Other API shapes need a small
 
 ## 5. Check the result
 
-`stickman check` should pass before a real run. A completed delivery also includes `technical-check.json`. Review the video yourself before publishing. This kit does not upload anywhere.
+`stickman check` should pass before a real run. A completed delivery also includes `technical-check.json`. Review the video yourself before publishing. This pipeline does not upload anywhere.

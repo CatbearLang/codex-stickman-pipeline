@@ -4,6 +4,8 @@
 
 CLI en Python, de punta a punta y reanudable, que orquesta la escritura del guion con un LLM, la generación de imágenes con IA, la voz (TTS), la sincronización palabra por palabra y el render con FFmpeg. Incluye controles de presupuesto, caché y tests.
 
+📖 [Para qué sirve, cómo funciona y cómo se construyó](docs/HOW_IT_WAS_BUILT.es.md) · [Arquitectura](docs/ARCHITECTURE.md)
+
 ## Puntos clave
 
 - Pipeline por etapas (`script → voice → align → stills → compose → verify`), cada etapa se puede volver a ejecutar sola.

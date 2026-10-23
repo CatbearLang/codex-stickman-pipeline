@@ -4,7 +4,7 @@
 - **A command is not found:** reopen PowerShell after installation and confirm `ffmpeg`, `ffprobe`, `node`, `npm`, and `codex` are on PATH.
 - **Codex sign in is missing:** run `codex login` and choose ChatGPT sign in. Do not paste tokens into scripts.
 - **Codex does not recognize an option:** update the official CLI and inspect `codex exec --help` and `codex features list`.
-- **No generated image:** check `image_generation` access, quota, and network. The kit stops without switching providers.
+- **No generated image:** check `image_generation` access, quota, and network. The pipeline stops without switching providers.
 - **Script is rejected as too short or sparse:** retry the script stage or provide a complete local script. For the 5.5 minute default (5-6 minute standard), aim for 725-870 spoken words measured (300-360s) and one visual concept per 6-12 seconds (at most 36 images, 72 for two runs, no implicit retries).
 - **Edge TTS fails:** test `edge-tts --list-voices`, your voice name, and network access.
 - **Whisper starts slowly:** the optional local model may need to download first; install the `[align]` extra.
