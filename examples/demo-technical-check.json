@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "mp4": "demo-real.mp4",
+  "checks": {
+    "decode": {
+      "ok": true
+    },
+    "resolution": {
+      "ok": true,
+      "got": [
+        1920,
+        1080
+      ],
+      "expected": [
+        1920,
+        1080
+      ]
+    },
+    "duration": {
+      "ok": true,
+      "got": 16.033333,
+      "expected": 16.032,
+      "tolerance_s": 1.0
+    },
+    "loudness": {
+      "ok": true,
+      "lufs": -15.3,
+      "target": -14.0,
+      "tolerance": 2.0
+    },
+    "true_peak": {
+      "ok": true,
+      "tp_dbfs": -4.3,
+      "max": -1.0
+    }
+  },
+  "ok": true
+}

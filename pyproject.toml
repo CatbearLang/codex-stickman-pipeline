@@ -1,0 +1,36 @@
+[project]
+name = "stickman-cli"
+version = "1.0.3"
+description = "Automated AI pipeline that turns a topic into a narrated stickman explainer video"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Lian Yang"}]
+
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.27",
+    "Pillow>=10,<13",
+    "edge-tts>=7.2.7,<8",
+    "tomli>=2.0 ; python_version < '3.11'",
+]
+
+[project.scripts]
+stickman = "stickman.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[project.optional-dependencies]
+align = ["faster-whisper>=1.2,<2"]
+dev = ["pytest>=8", "build>=1"]
+
+[tool.setuptools.package-data]
+stickman = ["assets/fonts/*", "assets/sfx/*", "assets/music/*", "assets/*.json"]

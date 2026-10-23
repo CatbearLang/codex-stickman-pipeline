@@ -1,0 +1,11 @@
+Original procedural ambient bed (ambient.wav). Released under this repository's MIT license. No external recording, performer, sample or metadata.
+
+accralate.mp3 — "Accralate" by Kevin MacLeod (incompetech.com).
+License: Creative Commons Attribution 4.0 International (CC BY 4.0).
+http://creativecommons.org/licenses/by/4.0/
+(md5 b9a667797ffb9db79bb4b9e36bf26790, sha256 f9760f92...09fd).
+Required video credit (emitted automatically into output/caption.txt
+and deliveries/*/caption.txt by the pipeline):
+"Accralate" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0
+Keep this file and the credit with the track. If you replace the track,
+keep the applicable attribution for your own licensed music.

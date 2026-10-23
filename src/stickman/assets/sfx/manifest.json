@@ -1,0 +1,10 @@
+{
+  "whoosh.wav": {
+    "sha256": "47c018cf517a27b6b95ed9611d490f7ffe3ed802c8dfa7771c1118891b17dcd7",
+    "origin": "original procedural synthesis"
+  },
+  "pop.wav": {
+    "sha256": "efb82eec6f5007562411a5aa0db3a0ef8746a7e635575b3c5ca038b7ca223732",
+    "origin": "original procedural synthesis"
+  }
+}

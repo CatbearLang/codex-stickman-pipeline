@@ -1,0 +1,116 @@
+{
+  "type": "object",
+  "properties": {
+    "schema": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "logline": {
+      "type": "string"
+    },
+    "thumbnail_hook": {
+      "type": "string"
+    },
+    "target_minutes": {
+      "type": "number"
+    },
+    "scenes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "voiceover": {
+            "type": "string"
+          },
+          "visual": {
+            "type": "string"
+          },
+          "anchor": {
+            "type": "string"
+          },
+          "action": {
+            "type": "string"
+          },
+          "concepts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "anchor": {
+                  "type": "string"
+                },
+                "narration_span": {
+                  "type": "string"
+                },
+                "subject": {
+                  "type": "string"
+                },
+                "visible_action": {
+                  "type": "string"
+                },
+                "object": {
+                  "type": "string"
+                },
+                "spatial_relation": {
+                  "type": "string"
+                },
+                "composition": {
+                  "type": "string"
+                },
+                "semantic_visual": {
+                  "type": "string"
+                },
+                "overlay_hint": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "anchor",
+                "narration_span",
+                "subject",
+                "visible_action",
+                "object",
+                "spatial_relation",
+                "composition",
+                "semantic_visual",
+                "overlay_hint"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "id",
+          "voiceover",
+          "visual",
+          "anchor",
+          "action",
+          "concepts"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schema",
+    "title",
+    "language",
+    "logline",
+    "thumbnail_hook",
+    "target_minutes",
+    "scenes"
+  ],
+  "additionalProperties": false
+}

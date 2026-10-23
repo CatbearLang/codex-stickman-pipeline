@@ -1,0 +1,55 @@
+{
+  "schema": "docu-en-1",
+  "title": "How a Paper Airplane Glides",
+  "language": "en",
+  "target_minutes": 0.25,
+  "logline": "A paper airplane stays aloft by exchanging speed for aerodynamic lift while drag steadily slows it.",
+  "thumbnail_hook": "Why doesn't it drop?",
+  "scenes": [
+    {
+      "id": "s01_hook",
+      "voiceover": "Why does a paper airplane glide instead of dropping straight down? Gravity pulls it lower, but forward motion redirects air around its angled wings, creating lift. Drag gradually steals speed, so lift weakens—and the airplane finally descends.",
+      "visual": "Minimalist stickman demonstration of launch, airflow, and descent on a white background with selective yellow accents.",
+      "anchor": "paper airplane",
+      "action": "glides",
+      "concepts": [
+        {
+          "id": "c01_launch",
+          "anchor": "paper airplane",
+          "narration_span": "Why does a paper airplane glide instead of dropping straight down? ",
+          "subject": "stickman",
+          "visible_action": "releases a folded paper airplane into forward flight",
+          "object": "yellow paper airplane",
+          "spatial_relation": "airplane moving right above the stickman's outstretched hand",
+          "composition": "wide side view with open space along the flight path",
+          "semantic_visual": "A level launch visually contrasts gliding with a vertical fall.",
+          "overlay_hint": "Why It Glides"
+        },
+        {
+          "id": "c02_forces",
+          "anchor": "angled wings",
+          "narration_span": "Gravity pulls it lower, but forward motion redirects air around its angled wings, creating lift. ",
+          "subject": "paper airplane",
+          "visible_action": "moves through curved airflow while opposing arrows indicate lift and gravity",
+          "object": "airflow lines and force arrows",
+          "spatial_relation": "yellow lift arrow above the wing and gravity arrow below it",
+          "composition": "close side profile centered on one wing",
+          "semantic_visual": "Airflow around the angled wing produces an upward aerodynamic force while gravity acts downward.",
+          "overlay_hint": "Lift Versus Gravity"
+        },
+        {
+          "id": "c03_descent",
+          "anchor": "drag",
+          "narration_span": "Drag gradually steals speed, so lift weakens—and the airplane finally descends.",
+          "subject": "stickman observer",
+          "visible_action": "watches the slowing airplane follow a gentle downward path",
+          "object": "paper airplane with shortening motion lines",
+          "spatial_relation": "airplane descending toward the ground ahead of the stickman",
+          "composition": "wide diagonal composition tracing a yellow curved descent path",
+          "semantic_visual": "Shortening speed marks connect increasing slowdown with reduced lift and eventual descent.",
+          "overlay_hint": "Slower, Then Down"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "ambient.wav": {
+    "sha256": "fc14ef4605293591c698c3ba44cb6bcc9e0011dda2314a94a9a716c75a242734",
+    "origin": "original procedural additive synthesis",
+    "duration_s": 24
+  },
+  "accralate.mp3": {
+    "sha256": "f9760f923aac20d3048774f39eefddb2d952f64ecabac4850f7c53110950e9fd",
+    "origin": "Kevin MacLeod (incompetech.com), via archive.org/details/Incompetech (md5 b9a667797ffb9db79bb4b9e36bf26790)",
+    "license": "CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/)",
+    "credit": "\"Accralate\" Kevin MacLeod (incompetech.com) — Licensed under Creative Commons: By Attribution 4.0 — http://creativecommons.org/licenses/by/4.0/",
+    "duration_s": 305
+  }
+}
